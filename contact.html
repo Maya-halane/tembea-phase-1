@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel inquiry | Tembea</title>
+</head>
+<body>
+    <header>
+        <h1>Plan your journey</h1>
+        <p>Tell us about your dream trip and let Tembea handle and plan your journey</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="destination.html">destinations</a></li>
+                <li><a href="about.html">about us</a></li>
+                <li><a href="contact.html">travel inquiry</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <section>
+        <h2>travel inquiry form</h2>
+        <p>Tell us a little about yourself and your dream trip.</p>
+        <form action="#" method="post"></form>
+        <p>
+            <label for="full name">full name:</label>
+            <input type="text" id="full name" name="full name" required>
+        </p>
+        <p><label for="email">email address</label>
+        <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+        <label for="destination">choose your destination:</label>
+        <select name="destination" name="destination" required>
+            <option value="">--select destination--</option>
+            <option value="maasai mara">Maasai mara, kenya</option>
+            <option value="mount kilimanjaro">mount kilimanjaro, Tanzania</option>
+            <option value="diani beach">diani beach, kenya</option>
+        </select>
+    </p>
+    <p>
+        <label for="travel date">preferred travel date </label>
+        <input type="date" id="travel date" name="travel date" required>
+    </p>
+    <p>
+        <input type="radio" id="luxury" name="travel style" value="luxury">
+        <label for="luxury">luxury</label>
+    </p>
+    <p>
+        <label for="message"> tell us about your trip:</label>
+        <textarea name="message" id="message" rows="5" cols="40" placeholder="describe your dream trip..."></textarea>
+    </p>
+    <button type="submit">send travel inquiry</button>
+     </section>
+    </main>
+    <footer>
+        <p>& copy; 2026 Tembea. All rights reserved</p>
+    </footer>
+</body>
+</html>
