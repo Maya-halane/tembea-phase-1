@@ -15,5 +15,5 @@ Tech Stack
 HTML5 CSS3 Tailwind CSS JavaScript
 
 Run Locally
-git clone https://github.com/your-username/tembea.git
+git clone https://github.com/Maya-halane/tembea-phase-1
 cd tembea
