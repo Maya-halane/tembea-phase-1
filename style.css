@@ -1,17 +1,15 @@
 @import url('https://googleapis.com');
 
 :root {
-  --clr-brand: #026670;         /
-  --clr-brand-hover: #01444b;
-  --clr-text-dark: #1f2937;      
-  --clr-bg-light: #f9fafb;       
-  --clr-bg-white: #ffffff;
-  --clr-border: #e5e7eb;
-  --clr-zebra: #f3f4f6;
-  --clr-focus: #f51720;          
+  --color-brand: #026670;         /
+  --color-brand-hover: #01444b;
+  --color-text-dark: #1f2937;      
+  --color-background-light: #f9fafb;       
+  --color-background-white: #ffffff;
+  --color-border: #e5e7eb;          
 
 
-  --font-main: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-main: arial, sans-serif;
   --fs-body: 1rem;
   --lh-body: 1.6;
   --fs-h1: clamp(2rem, 5vw + 1rem, 3.5rem);
