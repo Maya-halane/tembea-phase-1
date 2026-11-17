@@ -1,64 +1,129 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tembea- explore kenya </title>
+    <meta name="description" content="Discover beautiful destinations across Kenya with Tembea. Plan your next adventure with us.">
+    <title>Tembea | Discover Kenya</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#main">main page</a>
+    <a href="#main-content">Skip to main content</a>
     <header>
-        <h1>Tembea</h1>
-        <p>discover beautiful places and plan your next adventure in kenya</p>
+        <a href="index.html">Tembea</a>
         <nav aria-label="Main navigation">
-         <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="destination.html">destinations</a></li>
-            <li><a href="about.html">about us</a></li>
-            <li><a href="contact.html">travel inquiry</a></li>
-        </ul>
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
-    <main id="main">
+    <main id="main-content">
+
 <section class="hero">
-<h2 id="featured-heading">featured destinations</h2>
-<article>
-    <h3>Maasai Mara,Kenya</h3>
-    <figure>
-    <img src="https://cdn.getyourguide.com/image/format=auto%2Cfit=crop%2Cgravity=auto%2Cquality=60%2Cwidth=375%2Cheight=375%2Cdpr=2/tour_img/f3dc0d9e2ed73b67.jpeg" alt="enjoy the wildlife and african landscape"width= 300 height="500"> 
-    </figure>
-    <figcaption>experience amazing wildlife such as wildebeests and african</figcaption>
-    <a href="destination.html">explore Maasai mara</a>
-</article>
-<article>
-    <h3>Diani beach, Kenya</h3>
-    <figure>
-    <img src="https://kenyasafaritrails.co.uk/uploads/1768142540_hero.png" alt="enjoy walking beside the ocean and sunset on the ocean"width=300 height="500">
-    </figure>
-    <figcaption>relax on white sandy sandy beaches besides the indian ocean</figcaption>
-    <a href="destination.html">explore diani beach</a>
-</article>
-<article>
-    <h3>mount kilimanjaro, Tanzania</h3>
-    <figure>
-    <img src="https://kilidovetours.com/wp-content/uploads/2025/05/Monut-Kilimanjaro-Green-Season-view.webp" alt="enjoy the mountain view"width=300 height="500">
-    </figure>
- <figcaption>discover breathtaking mountain views and exciting adventure here on mount kilimanjaro</figcaption>
- <a href="destination.html">explore the mountain views and exciting adventure</a>
-</article>
-</section>
-<aside>
-<h2 id="travel-tips-heading">Travel tips</h2>
-<ul>
-    <li>pack light and bring only what you need.</li>
-    <li>check the weather before travelling.</li>
-    <li>keep your travel document safe.</li>
-</ul>
-</aside>
+
+    <picture class="hero-image">
+        <source
+            srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoH6LP9JBvshzozHAWv9aFywMo3T09-0ydRbHK0LnqnQ&s=10">
+
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoH6LP9JBvshzozHAWv9aFywMo3T09-0ydRbHK0LnqnQ&s=10" alt="Beautiful Kenyan landscape with mountains and open wilderness">
+    </picture>
+
+    <div class="hero-content">
+            <h1>Welcome to Tembea</h1>
+            <p>
+                Discover the beauty of Kenya with Tembea.
+                From breathtaking wildlife safaris to beautiful
+                coastal beaches, your next adventure begins here.
+            </p>
+        <a href="destination.html" class="btn">
+            Explore Destinations
+        </a>
+    </div>
+        </section>
+      <section class="destinations">
+                <h2>Explore Destinations</h2>
+        <div id="destination-grid" class="destination-grid">
+         </div>
+     </section>
+     <section>
+        <div class="destination-grid">
+           <article class="destination-card">
+            <div class="destination-content"></div>
+                <h3>Diani Beach</h3>
+                <figure>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFvn1Y8DyWrijdflCSlygu1DhbYoEtl6Hpej5i8R8HAA&s=10" width="300" height="500" alt="Beautiful white sandy beach with palm trees along the Indian Ocean">
+                    <figcaption>
+                        Relax on the beautiful shores of Diani Beach.
+                    </figcaption>
+                </figure>
+                <p>
+                    Diani Beach is famous for its white sandy beaches,
+                    turquoise waters and relaxing tropical atmosphere.
+                </p>
+                <a href="destinations.html">Explore Diani Beach</a>
+            </div>
+            </article>
+             </div>
+            <div class="destination-grid">
+             <article class="destination-card">
+                <div class="destination-content"></div>
+                <h3>Maasai Mara</h3>
+                <figure>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHBtJQGR7lhGTHIGYhU16RBFoDVhegGS-vwRQsUZ-SjQ&s=10" width="300" height="500" alt="Wild animals grazing across the open grasslands of Maasai Mara">
+                    <figcaption>
+                        Experience the magic of the African wilderness.
+                    </figcaption>
+                </figure>
+                <p>
+                    Maasai Mara offers unforgettable wildlife safaris,
+                    breathtaking landscapes and opportunities to witness
+                    the Great Migration.
+                </p>
+                <a href="destinations.html">Explore Maasai Mara</a>
+             </div>
+             </article>
+            </div>
+            <div class="destination-grid">
+             <article class="destination-card">
+                <div class="destination-content"></div>
+                <h3>Amboseli National Park</h3>
+                <figure>
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCaAl30qq92eF7LAC5_5FJpXMezTJhqziqEN3UzHkYNw&s=10" width="300" height="500" alt="Elephants walking across Amboseli plains with Mount Kilimanjaro behind them">
+
+                    <figcaption>
+                        Discover elephants beneath Mount Kilimanjaro.
+                    </figcaption>
+                </figure>
+                <p>
+                    Amboseli is a wonderful destination for wildlife lovers,
+                    offering spectacular elephant sightings and mountain views.
+                </p>
+                <a href="destinations.html">Explore Amboseli</a>
+            </div>
+             </article>
+            </div>
+        </section>
+        <aside>
+            <h2>Travel Tips for Kenya</h2>
+            <ul>
+                <li>Carry comfortable clothing and walking shoes.</li>
+                <li>Bring sunscreen, sunglasses and a reusable water bottle.</li>
+                <li>Book accommodation and safaris in advance.</li>
+                <li>Respect local cultures and wildlife regulations.</li>
+            </ul>
+        </aside>
     </main>
     <footer>
-        <p>& copy; 2026 Tembea. All rights reserved </p>
+        <p>& copy; 2026 Tembea. All rights reserved.</p>
     </footer>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>

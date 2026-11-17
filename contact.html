@@ -1,95 +1,91 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Tembea Travel to plan your African adventure.">
+    <meta name="description" content="Contact Tembea to inquire about your next Kenyan travel adventure.">
     <title>Contact Us | Tembea</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <a href="#main-content">Skip to main content</a>
     <header>
-        <p>Tembea</p>
-        <p>Discover Africa. Experience more.</p>
+        <a href="index.html">Tembea</a>
         <nav aria-label="Main navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="destination.html">Destinations</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html" aria-current="page">Contact</a></li>
             </ul>
         </nav>
     </header>
-
-    <main>
-        <h1>Plan your adventure</h1>
-        <p>Tell us about your dream trip. Complete the inquiry form below and let us help you plan your journey.</p>
-
+    <main id="main-content">
+        <h1>Contact Tembea</h1>
+        <p>
+            Ready for your next adventure?
+            Send us a trip inquiry and tell us what kind
+            of Kenyan experience you are looking for.
+        </p>
         <section>
-            <h2">Travel inquiry form</h2>
-
-            <form>
+            <h2>Travel Inquiry Form</h2>
+           <form id="contact-form" novalidate>
                 <p>
-                    <label for="full-name">Full name:</label>
+                    <label for="full-name">Full Name:</label>
                     <input type="text" id="full-name" name="full-name" autocomplete="name" required>
                 </p>
-
                 <p>
-                    <label for="email">Email address:</label>
+                    <label for="email">Email Address:</label>
+
                     <input type="email" id="email" name="email" autocomplete="email" required>
                 </p>
-
                 <p>
-                    <label for="destination">Preferred destination:</label>
+                    <label for="destination">Choose Your Destination:</label>
                     <select id="destination" name="destination" required>
-                        <option value="">Choose a destination</option>
-                        <option value="maasai-mara">Maasai Mara – Kenya</option>
-                        <option value="Zanzibar">Zanzibar – Tanzania</option>
-                        <option value="amboseli">Amboseli – Kenya</option>
-                        <option value="diani-beach">Diani Beach – Kenya</option>
-                        <option value="mount kilimanjaro">mount kilimanjaro– Tanzania</option>
-                        <option value="Malindi">Malindi – Kenya</option>
+                        <option value="">Select a destination</option>
+                        <option value="maasai-mara">Maasai Mara</option>
+                        <option value="amboseli">Amboseli National Park</option>
+                        <option value="lake-naivasha">Lake Naivasha</option>
+                        <option value="diani-beach">Diani Beach</option>
+                        <option value="lamu-island">Lamu Island</option>
+                        <option value="watamu-beach">Watamu Beach</option>
                     </select>
                 </p>
-
                 <p>
-                    <label for="travel-date">Preferred travel date:</label>
+                    <label for="travel-date">Preferred Travel Date:</label>
+
                     <input type="date" id="travel-date" name="travel-date">
                 </p>
-
                 <fieldset>
-                    <legend>Choose your travel style:</legend>
-
+                    <legend>Choose Your Travel Style</legend>
                     <p>
-                        <input type="radio" id="budget" name="travel-style" value="budget" required>
+                        <input type="radio" id="budget" name="travel-style" value="budget" required >
                         <label for="budget">Budget</label>
                     </p>
-
                     <p>
                         <input type="radio" id="mid-range" name="travel-style" value="mid-range">
                         <label for="mid-range">Mid-range</label>
                     </p>
-
                     <p>
                         <input type="radio" id="luxury" name="travel-style" value="luxury">
                         <label for="luxury">Luxury</label>
                     </p>
                 </fieldset>
-
-                <p>
-                    <label for="message">Tell us about your dream trip:</label>
-                    <textarea id="message" name="message" rows="6" cols="40" placeholder="Include your travel plans, number of travellers and any special requests..."></textarea>
-                </p>
-
-                <button type="submit">Submit inquiry</button>
+                 <label for="message">Message</label>
+          <textarea id="message" name="message" aria-describedby="message-error"></textarea>
+          <p id="message-error"></p>
+         <button type="submit">Send Message</button>
+           <p id="form-status" aria-live="polite"></p>
             </form>
         </section>
+        <section>
+            <h2>Other Ways to Reach Us</h2>
+        </section>
     </main>
-
     <footer>
-        <p>&copy; 2026 Tembea Travel. All rights reserved.</p>
-        <p>We look forward to helping you explore Africa!</p>
+        <p>& copy; 2026 Tembea. All rights reserved.</p>
     </footer>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
